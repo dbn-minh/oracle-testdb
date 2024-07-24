@@ -1,0 +1,28 @@
+{
+  "name": "employee-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec babel-node bin/www.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "oracledb": "^6.5.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.3",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "nodemon": "^3.1.4"
+  }
+}
